@@ -1,0 +1,37 @@
+Ionic
+
+en la página  de ionic da ejemplos para crear nuevo proyecto
+ionic start myApp sidemenu  //crear aplicación con un menú desplegable
+
+splashicon-generator es un repositorio en github, repositorio para generar las imagenes que se necesita en una aplicación
+carpeta resources en el proyecto están los iconos
+
+config.xml  tiene el nombre de la aplicación, id, autor, íconos de la aplicación, es el manifest de la aplicación
+
+ionic serve , para subir el servidor
+
+Decoradores
+@NgModule declara un módulo
+@Component  declarar componente de angular
+@Input   para mandar información a un componente
+@output para que el componente envíe información
+@ViewChild  Investigar
+@Directive Investigar
+@Injectable  Declarar un servicio/provider, es un singleton.
+Su principal capacidad de injectable es que se puede inyectar, no es necesario realizar una instancia.
+
+Para poder usar un componente la clase debe estar en declarations en angular y en ionic adicionalmente debe estar en entryComponents
+
+El inyectable para poder usuarlo se debe agregar en providers
+para crear provider en ionic
+ionic g provider nombreProvider
+
+en angular hay un modulo HttpClientModule, nos permite hacer get,post
+
+FormsModule en imports para poder conectar el componente con la vista html, también contiene formularios reactivos (investigar)
+
+En ionic al generar el provider no agrega HttpClientModule en providers, hay que agregarlo.
+
+
+
+
